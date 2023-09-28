@@ -1,3 +1,8 @@
-.Body{
+Body{
   align-content: center;
+}
+h1{
+  color: darkblue;
+  text-align: center;
+  font-family: arial;
 }
