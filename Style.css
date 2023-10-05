@@ -1,5 +1,7 @@
-body{
-  align-content: center;
+.banner{
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
 }
 h1{
   color: darkblue;
