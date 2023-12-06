@@ -115,3 +115,7 @@ small{
 .referenceList > li{
   padding-bottom: 0.5rem;
 }
+
+.referenceList{
+  padding-bottom: 50rem;
+}
