@@ -1,0 +1,117 @@
+html {
+  font-family:arial;  
+  scroll-behavior:smooth;
+}
+
+.banner{
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.bannerHeadings{
+  display: flex;
+  justify-content: space-between;
+  max-width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bannerHeadings > h2{
+  color: #25384a;
+}
+
+h1{
+  color: #25384a;
+  text-align: center;
+}
+
+p{
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+nav{
+  position: sticky;
+  top: 2rem;
+  align-self: start;
+  margin-right: 2rem;
+}
+
+section{
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+main{
+  display: grid;
+  grid-template-columns: 15em 1fr;
+  max-width: 100em;
+  width: 97%;
+  padding-right:2rem;
+  margin: 0 auto;
+}
+
+.tableContentsList > li{
+  padding-top: 1rem;
+}
+
+.imgParagraph{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imgsParagraph{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.figurel{
+  text-align: center;
+  width: auto;
+  height: auto;
+  border: 1px solid grey;
+  padding: 0.25rem;
+  margin-right: 0.5rem;
+}
+
+.figurer{
+  text-align: center;
+  width: auto;
+  height: auto;
+  border: 1px solid grey;
+  padding: 0.25rem;
+  margin-left: 0.5rem;
+}
+
+.figure > img{
+  height: auto;
+}
+
+small{
+  color:#25384a;
+}
+
+#presentationSlides{
+  position: relative;
+  text-align: center;
+}
+
+.slideContainer > img{
+  width: 100%;
+  max-width: 1fr;
+  height: auto;
+}
+
+.buttonContainer{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.referenceList > li{
+  padding-bottom: 0.5rem;
+}
